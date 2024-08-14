@@ -13,10 +13,10 @@ const route = useRoute()
         <TabsTrigger
           value="/dashboard/links"
         >
-          連結
+          Links
         </TabsTrigger>
         <TabsTrigger value="/dashboard/analysis">
-          分析
+          Analysis
         </TabsTrigger>
       </TabsList>
     </Tabs>

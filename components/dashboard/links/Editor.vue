@@ -130,13 +130,13 @@ const { previewMode } = useRuntimeConfig().public
           variant="outline"
           @click="randomSlug"
         >
-          新增連結
+          Create Link
         </Button>
       </slot>
     </DialogTrigger>
     <DialogContent class="max-w-[95svw] max-h-[95svh] md:max-w-lg grid-rows-[auto_minmax(0,1fr)_auto]">
       <DialogHeader>
-        <DialogTitle>{{ link.id ? '編輯連結' : '新增連結' }}</DialogTitle>
+        <DialogTitle>{{ link.id ? 'Edit Link' : 'Create Link' }}</DialogTitle>
       </DialogHeader>
       <p
         v-if="previewMode"
@@ -180,11 +180,11 @@ const { previewMode } = useRuntimeConfig().public
               variant="secondary"
               class="mt-2 sm:mt-0"
             >
-              關閉
+              Close
             </Button>
           </DialogClose>
           <Button type="submit">
-            儲存
+            Save
           </Button>
         </DialogFooter>
       </AutoForm>

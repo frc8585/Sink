@@ -3,7 +3,7 @@
     <LazyDashboardMetricsLocations class="col-span-1 lg:col-span-8" />
     <DashboardMetricsGroup
       class="lg:col-span-4"
-      :tabs="['國家', 'region', 'city']"
+      :tabs="['country', 'region', 'city']"
     />
     <DashboardMetricsGroup
       class="lg:col-span-6"

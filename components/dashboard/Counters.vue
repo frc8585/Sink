@@ -41,7 +41,7 @@ onBeforeUnmount(() => {
     <Card>
       <CardHeader class="flex flex-row items-center justify-between pb-2 space-y-0">
         <CardTitle class="text-sm font-medium">
-          訪問次數
+          Visits
         </CardTitle>
         <MousePointerClick class="w-4 h-4 text-muted-foreground" />
       </CardHeader>
@@ -60,7 +60,7 @@ onBeforeUnmount(() => {
     <Card>
       <CardHeader class="flex flex-row items-center justify-between pb-2 space-y-0">
         <CardTitle class="text-sm font-medium">
-          訪問人次
+          Visitors
         </CardTitle>
         <Users class="w-4 h-4 text-muted-foreground" />
       </CardHeader>
@@ -79,7 +79,7 @@ onBeforeUnmount(() => {
     <Card>
       <CardHeader class="flex flex-row items-center justify-between pb-2 space-y-0">
         <CardTitle class="text-sm font-medium">
-          受薦人次
+          Referers
         </CardTitle>
         <Flame class="w-4 h-4 text-muted-foreground" />
       </CardHeader>
