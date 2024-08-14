@@ -27,7 +27,7 @@ const showMenu = ref(false)
                 class="w-full h-full"
               >
             </span>
-            <span class="mx-2">FRC8585 URL Shortener</span>
+            <span class="mx-2">FRC8585</span>
           </a>
         </div>
 
