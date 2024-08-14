@@ -10,7 +10,7 @@ const loginFieldConfig = {
   token: {
     inputProps: {
       type: 'password',
-      placeholder: '********',
+      placeholder: '',
     },
   },
 }
@@ -36,10 +36,10 @@ async function onSubmit(form) {
   <Card class="w-full max-w-sm">
     <CardHeader>
       <CardTitle class="text-2xl">
-        Login
+        登入
       </CardTitle>
       <CardDescription>
-        Enter your site token to login.
+        請輸入密鑰來登入
       </CardDescription>
     </CardHeader>
     <CardContent class="grid gap-4">
@@ -57,7 +57,7 @@ async function onSubmit(form) {
           </AlertDescription>
         </Alert>
         <Button class="w-full">
-          Login
+          登入
         </Button>
       </AutoForm>
     </CardContent>

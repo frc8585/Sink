@@ -16,15 +16,15 @@ function logOut() {
     </AlertDialogTrigger>
     <AlertDialogContent class="max-w-[95svw] max-h-[95svh] md:max-w-lg grid-rows-[auto_minmax(0,1fr)_auto]">
       <AlertDialogHeader>
-        <AlertDialogTitle>LogOut ?</AlertDialogTitle>
+        <AlertDialogTitle>登出 ?</AlertDialogTitle>
         <AlertDialogDescription>
-          Are you sure you want to log out ?
+          你確定要登出?
         </AlertDialogDescription>
       </AlertDialogHeader>
       <AlertDialogFooter>
         <AlertDialogCancel>Cancel</AlertDialogCancel>
         <AlertDialogAction @click="logOut">
-          LogOut
+          登出
         </AlertDialogAction>
       </AlertDialogFooter>
     </AlertDialogContent>
