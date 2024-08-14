@@ -14,20 +14,20 @@ const showMenu = ref(false)
       >
         <div class="flex items-center justify-start w-1/4 h-full pr-4">
           <a
-            href="/"
+            href="/dashboard"
             title="Sink"
             class="flex items-center py-4 space-x-2 text-xl font-black text-gray-900 dark:text-gray-100 md:py-0"
           >
             <span
-              class="flex items-center justify-center w-8 h-8 rounded-full"
+              class="flex items-center justify-center w-12 h-12 rounded-full"
             >
               <img
-                src="/sink.png"
-                alt="Sink"
-                class="w-full h-full rounded-full"
+                src="https://file.frc8585.com/logo/FRC8585%E6%A8%99%E6%BA%96%E9%9A%8A%E5%BE%BD(%E5%8E%BB%E8%83%8C).png"
+                alt="FRC8585"
+                class="w-full h-full"
               >
             </span>
-            <span class="mx-2">Sink</span>
+            <span class="mx-2">FRC8585 url shortener</span>
           </a>
         </div>
 
@@ -59,11 +59,6 @@ const showMenu = ref(false)
             <div
               class="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0"
             >
-              <a
-                class="w-full px-6 py-2 mr-0 text-gray-700 cursor-pointer dark:text-gray-300 md:px-3 md:mr-2 lg:mr-3 md:w-auto"
-                href="/dashboard"
-                title="Sink Dashboard"
-              >Dashboard</a>
               <a
                 href="https://github.com/ccbikai/sink"
                 target="_blank"
