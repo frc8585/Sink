@@ -15,19 +15,19 @@ const showMenu = ref(false)
         <div class="flex items-center justify-start w-1/4 h-full pr-4">
           <a
             href="/dashboard"
-            title="Sink"
+            title="Home"
             class="flex items-center py-4 space-x-2 text-xl font-black text-gray-900 dark:text-gray-100 md:py-0"
           >
             <span
               class="flex items-center justify-center w-12 h-12 rounded-full"
             >
               <img
-                src="https://file.frc8585.com/logo/FRC8585%E6%A8%99%E6%BA%96%E9%9A%8A%E5%BE%BD(%E5%8E%BB%E8%83%8C).png"
+                src="/sink.png"
                 alt="FRC8585"
                 class="w-full h-full"
               >
             </span>
-            <span class="mx-2">FRC8585 url shortener</span>
+            <span class="mx-2">FRC8585 URL Shortener</span>
           </a>
         </div>
 
@@ -40,8 +40,8 @@ const showMenu = ref(false)
             class="flex-col w-full h-auto overflow-hidden rounded-lg bg-background md:overflow-visible md:rounded-none md:relative md:flex md:flex-row"
           >
             <a
-              href="/"
-              title="Sink"
+              href="/dashboard"
+              title="Home"
               class="inline-flex items-center w-auto h-16 px-4 text-xl font-black leading-none text-gray-900 dark:text-gray-100 md:hidden"
             >
               <span
@@ -49,18 +49,18 @@ const showMenu = ref(false)
               >
                 <img
                   src="/sink.png"
-                  alt="Sink"
+                  alt="FRC8585"
                   class="w-full h-full rounded-full"
                 >
               </span>
-              <span class="mx-2">Sink</span>
+              <span class="mx-2">FRC8585</span>
             </a>
             <div class="w-full mx-4" />
             <div
               class="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0"
             >
               <a
-                href="https://github.com/ccbikai/sink"
+                href="https://github.com/frc8585/Sink"
                 target="_blank"
                 title="Github"
                 class="inline-flex items-center w-full px-6 py-3 text-sm font-medium leading-4 text-white bg-gray-900 md:px-3 md:w-auto md:rounded-full hover:bg-gray-800 focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-gray-800"

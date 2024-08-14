@@ -13,8 +13,8 @@ defineProps({
   <Breadcrumb class="flex justify-between">
     <BreadcrumbList>
       <BreadcrumbItem>
-        <BreadcrumbLink href="/">
-          Sink
+        <BreadcrumbLink href="/dashboard">
+          Home
         </BreadcrumbLink>
       </BreadcrumbItem>
       <BreadcrumbSeparator />
